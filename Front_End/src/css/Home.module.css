@@ -1,0 +1,73 @@
+
+.test_w {
+    animation: pulse 2s;
+    color: rgba(255, 251, 251, 0.5);
+    margin-left: 35%;
+    margin-top: 15%;
+    font-size: 40px;
+    position: relative;
+}
+@keyframes pulse {
+    0% {
+        margin-top: 0%;
+    }
+    100% {
+        
+        margin-top: 15%;
+    }
+
+}
+.patientintf {
+    border-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    color: rgba(255, 251, 251, 0.5);
+    background-color: rgba(255, 251, 251, 0.0);
+    width: 100%;
+    font-size: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+.hospitalintf {
+    border-style: solid;
+    cursor: pointer;
+    border-color: rgba(255, 251, 251, 0.6);
+    border-radius: 25px;
+    border-width: 2px;
+    color: rgba(255, 251, 251, 0.5);
+    background-color: rgba(255, 251, 251, 0.0);
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    font-size: 15px;
+}
+
+.hospitalintf:hover
+{
+background-color:rgb(226, 219, 219,0.1);
+}
+
+.patientintf:hover
+{
+background-color:rgb(226, 219, 219,0.1);
+}
+
+.container{
+    display:grid;
+    grid-template-rows:40vh 20vh 40vh;
+}
+.select {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

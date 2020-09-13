@@ -1,0 +1,68 @@
+<div className="bg">
+                <div className={styles.signup}>
+                <div></div>
+                    <div className={styles.form}>
+                        
+                        <form className={styles.insideform} onSubmit={this.handlesubmit2}>
+                            <input ref="patid" className="login-page_input" type="text" placeholder="Enter Patient ID" />
+                            <input ref="lpwd" className="login-page_input" type="text" placeholder="Enter Login Password" />
+                            <button className="login-page_button">Submit</button>
+                        </form>
+                       
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+
+
+<div className={styles.signup}>
+            <div></div>
+                <div className={styles.form}>
+                    <form className={styles.insideform} onSubmit={this.handlesubmit}>
+                        <input ref="patid" className="signup-page_input" type="text" placeholder="Enter Patient ID" />
+                        <input ref="pvtkey" className="signup-page_input" type="text" placeholder="Enter Private Key" />
+                        <input ref="pwd" className="signup-page_input" type="text" placeholder="Enter Access Password" />
+                        <input ref="lpwd" className="signup-page_input" type="text" placeholder="Enter Login Password" />
+                        <button className="signup-page_button">Submit</button>
+                    </form>
+                </div>
+            <div></div>
+            </div>
+
+
+hospital login
+<div className={styles.signup}>
+            <div></div>
+                <div className={styles.form}>
+                    <form className={styles.insideform} onSubmit={this.handlesubmit2}>
+                        <input ref="patid" className="login-page_input" type="text" placeholder="Enter Hospital ID" />
+                        <input ref="lpwd" className="login-page_input" type="text" placeholder="Enter Login Password" />
+                        <button className="login-page_button">Submit</button>
+                    </form>
+                </div>
+            <div></div>
+            </div>
+
+
+
+ <div className={styles.signup}>
+            <div></div>
+                <div className={styles.form}>
+                    <form className={styles.insideform} onSubmit={this.handlesubmit}>
+                      
+                        <input ref="patid" className="signup-page_input" type="text" placeholder="Enter Patient ID" />
+                     
+                        
+                        <input ref="pvtkey" className="signup-page_input" type="text" placeholder="Enter Private Key" />
+                     
+                        <input ref="pwd" className="signup-page_input" type="text" placeholder="Enter Access Password" />
+                       
+                        <input ref="lpwd" className="signup-page_input" type="text" placeholder="Enter Login Password" />
+                       
+                        <button className="signup-page_button">Submit</button>
+                       
+                    </form>
+                </div>
+                <div></div>
+            </div>

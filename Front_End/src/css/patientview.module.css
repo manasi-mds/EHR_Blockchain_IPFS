@@ -1,0 +1,129 @@
+.patientview {
+    display: grid;
+    grid-template-columns:30vw 40vw 30vw;
+    height:100vh;
+}
+
+.patientviewdetails {
+  display: grid;
+  grid-template-rows:15vw 85vw;
+  grid-template-columns:30vw 40vw 30vw;
+  height:100vh;
+}
+
+.viewrec:hover
+{
+background-color:rgb(226, 219, 219,0.1);
+}
+
+
+.viewrec{
+    border-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    color: rgba(255, 251, 251, 0.5);
+    background-color: rgba(255, 251, 251, 0.0);
+    width: 100%;
+    text-align-last: justify;
+    font-size: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+.buttoncontainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.signup {
+  display: grid;
+  grid-template-columns: 35vw 30vw 35vw;
+  grid-template-rows: 20vh 50vh 30vh;
+  height:100vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.decryptionpassword {
+  border-radius: 5px;
+  background-color: rgba(230, 230, 230, 0.5);
+  width: 62%;
+  
+  border-width: 0px;
+  position: relative;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-top: 10%;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.signuppagebutton{
+  border-radius: 5px;
+  border-width: 0px;
+  width: 61%;
+  background-color: #6B8E23;
+  position: relative;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-top: 10%;
+  margin-left: 20%;
+  color: white;
+  cursor: pointer;
+}
+
+.insideform {
+  border-width: 0px;
+  height: 70%;
+  width: 100%;
+  background-color: rgb(197, 194, 194,0.2);
+  border-radius: 15px;
+}
+
+.accessgrant{
+  align-items: center;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 50%;
+  background-color: #6B8E23;
+  
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-top: 10%;
+  
+  color: white;
+  cursor: pointer;
+}
+
+.buttoncontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recordlist{
+    display: grid;
+    grid-template-columns:30vw 40vw 30vw;
+    font-size: 20px;
+}
+
+.record{
+  border-width: 0px;
+  align-items: center;
+  height: 30%;
+  width: 90%;
+  background-color: rgb(197, 194, 194,0.2);
+  border-radius: 15px;
+}

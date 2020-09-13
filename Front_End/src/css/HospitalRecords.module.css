@@ -1,0 +1,73 @@
+.hospRecords {
+    display:grid;
+    grid-template-columns: 35vw 30vw 35vw;
+    grid-template-rows: 30vh 40vh 30vh;
+    
+}
+
+.insideform {
+    border-width: 0px;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(197, 194, 194,0.2);
+    border-radius: 15px;
+}
+
+.loginpagebutton {
+    border-radius: 5px;
+    border-width: 0px;
+    width: 61%;
+    background-color: #6B8E23;
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+    cursor: pointer;
+}
+
+.loginpageinput {
+    border-radius: 5px;
+    background-color: rgba(230, 230, 230, 0.5);
+    width: 62%;
+    border-width: 0px;
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+
+.decryptionpassword {
+    border-radius: 5px;
+    background-color: rgba(230, 230, 230, 0.5);
+    width: 62%;
+    
+    border-width: 0px;
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 60%;
+  }
+  
+  .record{
+    border-width: 0px;
+    align-items: center;
+    height: 30%;
+    width: 90%;
+    background-color: rgb(197, 194, 194,0.2);
+    border-radius: 15px;
+}
+
+.hospitalviewrecord {
+    display: grid;
+    grid-template-rows:5vw 95vw;
+    grid-template-columns:30vw 40vw 30vw;
+    height:100vh;
+}
+
